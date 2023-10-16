@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>global var</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var shopname="tea time";     // global variable
+
+		function getname()
+		{
+			document.writeln(window.shopname);
+		}
+		getname();
+
+
+       function setname()
+       {
+       	window.institudename="i18n solution";   // global variable within function
+       }
+
+       function get()
+       {
+       	document.writeln(window.institudename);
+       }
+       setname();
+       get();
+
+	</script>
+
+</body>
+</html>
