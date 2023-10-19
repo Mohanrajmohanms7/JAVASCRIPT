@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>object</title>
+ </head>
+ <body>
+ 	<script type="text/javascript">
+
+ 		const mohan=
+ 		{
+ 			 fname:"mohan",
+ 			 lname:"raj",	
+ 			detail:function()
+ 			{
+ 				document.writeln(this.fname+" "+this.lname);
+ 			}
+ 		}
+
+ 		mohan.detail();
+
+ 		var parveen=
+ 		{
+ 			fname:"parveen",
+ 			lname:"kumar",
+ 			detail: function()
+ 			{
+ 				document.writeln(this.fname+" "+this.lname);
+ 			}
+ 		}
+
+ 	    document.writeln(parveen.fname+"<br>");
+ 	    document.writeln(parveen.lname+"<br>");
+ 	    
+ 	    parveen.detail();
+
+ 		
+ 	</script>
+ 
+ </body>
+ </html>
